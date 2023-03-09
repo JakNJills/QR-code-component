@@ -3,8 +3,8 @@ body {
   font-family: 'Outfit', sans-serif;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .container {
