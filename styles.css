@@ -1,24 +1,22 @@
 body {  
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
-  font-size: 15px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  max-width: 188px; 
+  max-width: 320px; 
   background-color: hsl(0, 0%, 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 70px auto;
-  padding-top:  10px;
+  padding:  16px;
   border-radius: 10px;
   max-height: 278px;
 }
 
 img {
-  width: 172px;
+  width: 100%;
   height: 172px;
   border-radius: 10px;
   margin-bottom: 0px;
